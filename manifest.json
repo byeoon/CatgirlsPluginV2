@@ -4,7 +4,8 @@
    "description": "Sends images from nekos.life API. ฅ•ω•ฅ",
    "authors": [
       {
-         "name": "original dev: beerpsi, maintained by byron"
+         "name": "beerpsi, maintained by byron"
       }
-   ]
+   ],
+   "color": "#00007d"
 }

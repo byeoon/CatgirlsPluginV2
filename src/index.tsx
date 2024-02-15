@@ -1,15 +1,10 @@
 import { Plugin, registerPlugin } from 'enmity/managers/plugins';
-import { React } from 'enmity/metro/common';
-import { getByProps } from 'enmity/metro';
 import { ApplicationCommandInputType, ApplicationCommandOptionType, ApplicationCommandType, Command } from "enmity/api/commands";
 import { REST } from "enmity/modules/common";
 import { Image } from "enmity/components";
 import { create } from 'enmity/patcher';
 import manifest from '../manifest.json';
 import { sendReply } from "enmity/api/clyde";
-
-import Settings from './components/Settings';
-
 
 const nekos_life_img_types = [
    "tickle",
@@ -35,6 +30,7 @@ const nekos_life_img_types = [
    "gecg",
    "avatar",
    "waifu",
+   "lewd",
  ];
  
  async function getImageSize(file: string): Promise<any> {
@@ -50,8 +46,6 @@ const nekos_life_img_types = [
  }
 
 const Patcher = create('CatgirlsPlugin');
-
-
    const CatgirlsPlugin: Plugin = {
       ...manifest,
       name: "Catgirls",
@@ -146,10 +140,6 @@ const Patcher = create('CatgirlsPlugin');
       Patcher.unpatchAll();
       this.commands = [];
    },
-
-   getSettingsPanel({ settings }) {
-      return <Settings settings={settings} />;
-   }
 };
 
 registerPlugin(CatgirlsPlugin);

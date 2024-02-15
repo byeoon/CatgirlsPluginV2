@@ -3,7 +3,7 @@
    "description": "Sends images from nekos.life API. ฅ•ω•ฅ.",
    "version": "2.0.0",
    "license": "GPL-3.0",
-   "author": "beerpsi maintained by byron",
+   "author": "beerpsi, maintained by byron",
    "scripts": {
       "build": "rollup -c --configPlugin esbuild"
    },
