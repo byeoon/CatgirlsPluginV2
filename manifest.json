@@ -1,10 +1,10 @@
 {
-   "name": "Catgirls-Revived",
+   "name": "Catgirls",
    "version": "2.0.0",
    "description": "Sends images from nekos.life API. ฅ•ω•ฅ",
    "authors": [
       {
-         "name": "original dev: beerpsi, revamped by byron"
+         "name": "original dev: beerpsi, maintained by byron"
       }
    ]
 }

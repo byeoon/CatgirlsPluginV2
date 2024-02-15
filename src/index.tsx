@@ -86,16 +86,6 @@ const Patcher = create('CatgirlsPlugin');
                 value: x,
               })),
             },
-            {
-              name: "whisper",
-              displayName: "whisper",
-    
-              description: "Whisper the URL instead of sending it to chat",
-              displayDescription: "Whisper the URL instead of sending it to chat",
-    
-              type: ApplicationCommandOptionType.Boolean,
-              required: false,
-            },
           ],
     
           execute: async function (args, message) {
@@ -143,10 +133,7 @@ const Patcher = create('CatgirlsPlugin');
                 };
               }
             } else {
-              const channel = message.channel;
-              sendReply(
-                channel.id,
-                `An error happened making a request to https://nekos.life/api/v2/img/${text}`,
+              sendReply(message?.channel.id ?? "0", `An error happened making a request to https://nekos.life/api/v2/img/${text}`,
               );
             }
           },
