@@ -129,7 +129,7 @@ const Patcher = create('CatgirlsPlugin');
                     url: resp.body["url"],
                   }],
                 };
-                sendReply(message.channel.id,
+                sendReply(message?.channel.id ?? "0",
                   {
                     embeds: [embed],
                     components: [component],

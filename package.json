@@ -1,9 +1,9 @@
 {
    "name": "catgirls",
-   "description": "Template for enmity plugins.",
-   "version": "1.0.0",
+   "description": "Sends images from nekos.life API. ฅ•ω•ฅ.",
+   "version": "2.0.0",
    "license": "GPL-3.0",
-   "author": "Zoey & eternal",
+   "author": "beerpsi maintained by byron",
    "scripts": {
       "build": "rollup -c --configPlugin esbuild"
    },

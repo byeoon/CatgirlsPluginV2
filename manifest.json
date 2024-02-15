@@ -1,11 +1,10 @@
 {
-   "name": "catgirls",
-   "version": "1.0.0",
-   "description": "Silences your typing indicator.",
+   "name": "Catgirls-Revived",
+   "version": "2.0.0",
+   "description": "Sends images from nekos.life API. ฅ•ω•ฅ",
    "authors": [
       {
-         "name": "eternal",
-         "id": "263689920210534400"
+         "name": "original dev: beerpsi, revamped by byron"
       }
    ]
 }
