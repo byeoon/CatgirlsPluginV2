@@ -1,19 +1,8 @@
 <div align='center'>
-   <img src='https://repo.enmity.app/banner.png' />
+   <h3>Catgirls Plugin **REVIVED**</h3>
+
+   Use slash commands to get pictures from the nekoslife API.<br />
+   Download: https://raw.githubusercontent.com/byeoon/CatgirlsPluginV2/main/dist/Catgirls.js 
 </div>
 
 ---
-
-<div align='center'>
-   <h3>Plugin template</h3>
-
-   Template for Enmity plugins.<br />
-   Use `npm install` to install the required modules and use `npm run build` to build your plugin.
-</div>
-
----
-
-<div align='center' style='margin-top: 15px;'>
-   <a href='https://discord.gg/rMdzhWUaGT'><img align='center' alt='Discord' src='https://img.shields.io/discord/950850315601711176?color=36309d&label=DISCORD&logo=discord&logoColor=white&style=for-the-badge'></a>
-   <a href='https://twitter.com/EnmityApp'><img align='center' alt='Twitter' src='https://img.shields.io/twitter/follow/EnmityApp?color=36309d&label=TWITTER&logo=TWITTER&logoColor=white&style=for-the-badge'></a>
-</div>
