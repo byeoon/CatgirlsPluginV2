@@ -6,6 +6,7 @@ interface SettingsProps {
    settings: SettingsStore;
 }
 
+/*
 export default ({ settings }: SettingsProps) => {
    return <FormRow
       label='Example Setting'
@@ -17,3 +18,4 @@ export default ({ settings }: SettingsProps) => {
       }
    />;
 };
+*/

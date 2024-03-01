@@ -29,8 +29,7 @@ const nekos_life_img_types = [
    "goose",
    "gecg",
    "avatar",
-   "waifu",
-   "lewd",
+   "waifu"
  ];
  
  async function getImageSize(file: string): Promise<any> {
