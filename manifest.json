@@ -1,7 +1,7 @@
 {
    "name": "Catgirls",
-   "version": "2.0.1",
-   "description": "Sends images from nekos.life and catboys.com API. ฅ•ω•ฅ",
+   "version": "2.0.2",
+   "description": "Sends images from the nekos.life API. ฅ•ω•ฅ",
    "authors": [
       {
          "name": "beerpsi, maintained by byron",

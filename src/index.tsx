@@ -139,7 +139,7 @@ const Patcher = create('CatgirlsPlugin');
 
 
 
-
+/*
         const catboys_command: Command = {
           id: "catboys-command",
     
@@ -231,9 +231,10 @@ const Patcher = create('CatgirlsPlugin');
             }
           },
         };
+        */
     
         this.commands.push(catgirls_command);
-        this.commands.push(catboys_command);
+    //    this.commands.push(catboys_command);
       },
 
    onStop() {
