@@ -31,11 +31,6 @@ const nekos_life_img_types = [
    "avatar",
    "waifu"
  ];
-
- const catboys_img_types = [
-  "img",
-  "baka"
-];
  
  async function getImageSize(file: string): Promise<any> {
    return new Promise(
@@ -234,7 +229,7 @@ const Patcher = create('CatgirlsPlugin');
         */
     
         this.commands.push(catgirls_command);
-    //    this.commands.push(catboys_command);
+    //  this.commands.push(catboys_command);
       },
 
    onStop() {
